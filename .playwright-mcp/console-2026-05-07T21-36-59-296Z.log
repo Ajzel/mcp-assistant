@@ -1,0 +1,49 @@
+[     990ms] [LOG] Init Bootstrap with config {onetrust_logs: false, geolocation_mock: default, onetrust_script_id: 38cb75bd-fbe1-4ac8-b4af-e531ab368caf} @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[     991ms] [LOG] 985.3999999761581 data!!!onetrust_promise_start @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[     991ms] [LOG] data!!!!geolocation_received undefined @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[     991ms] [LOG] 986 data!!!otSDKStub_script_load_start @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[     994ms] [LOG] 988.3000000119209 data!!!otCCPAiab_script_load_start @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    1389ms] [INFO] 🌐 i18next is made possible by our own product, Locize — consider powering your project with managed localization (AI, CDN, integrations): https://locize.com 💙 @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    1879ms] [LOG] 1873.5999999642372 data!!!otSDKStub_script_load_end @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    1890ms] [LOG] 1885.0999999642372 data!!!otCCPAiab_script_load_end @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3168ms] [LOG] CCPA - isFirstVisit: false @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3169ms] [LOG] 3163.199999988079 data!!!optanon_wrapper_call_start @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3169ms] [LOG] otGetInitialGrps ,1,2,3,4, @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3169ms] [LOG] Final isFirstVisit value before otDeleteCookie: false @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3189ms] [LOG] otGetInactiveId ,1,2,3,4, @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3189ms] [LOG] otGetActiveGroups ,1,2,3,4, @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3190ms] [LOG] shouldReloadOnChanges true @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3190ms] [LOG] otGetInitialGrps ,1,2,3,4, @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3231ms] [LOG] 3225.599999964237 data!!!optanon_wrapper_call_end @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3233ms] [LOG] 3227.5 data!!!onetrust_promise_end @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3233ms] [TABLE] {require_gdpr_consent: false, require_ccpa_consent: true, require_consent: true, require_prior_consent: false, consent: true, gdpr_consent_data: undefined, ccpa_consent_data: 1---, is_prohibited_country: false, geolocation: Object} @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3679ms] [WARNING] [GPT] PubAdsService.setTargeting is deprecated, use googletag.setConfig({targeting: ...}) instead.
+https://goo.gle/gpt-message#170 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604300101/pubads_impl.js:18
+[    3953ms] [LOG] IAS setup complete @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    3954ms] [LOG] IAS ADX script loaded successfully @ https://www.reuters.com/pf/resources/dist/ads/js/main.js?d=362:1
+[    4586ms] [WARNING] [GPT] Slot.getTargeting is deprecated, use Slot.getConfig('targeting') instead.
+https://goo.gle/gpt-message#201 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604300101/pubads_impl.js:18
+[    4772ms] [LOG] %c rpta:Raptor Analytics (rpta) has been initialized with config color: seagreen {onTrackPageView: , onTrackIdentity: , onTrackEvent: , debug: true} @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    4779ms] [LOG] %c rpta:Track event "lseg.logo.seen" is successfully invoked color: seagreen {label: LSEG Logo seen, nonInteraction: 0, category: Markets} @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    4865ms] [LOG] %c rpta:Track event "video_player.state.change" is successfully invoked color: seagreen {nonInteraction: 0, videoStateChange: 1, video_player_state_position: Original, category: video, video_player_context: JW} @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    4902ms] [LOG] %c rpta:Track event "application.web.vitals" is successfully invoked color: seagreen {category: Web Vitals, nonInteraction: 1, label: FCP, value: 820} @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    4903ms] [LOG] %c rpta:Track event "application.web.vitals" is successfully invoked color: seagreen {category: Web Vitals, nonInteraction: 1, label: TTFB, value: 426.5} @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    5134ms] [WARNING] [GPT] Using deprecated googletag.encryptedSignalProviders. Please use googletag.secureSignalProviders instead.
+https://goo.gle/gpt-message#155 @ https://securepubads.g.doubleclick.net/pagead/managed/js/gpt/m202604300101/pubads_impl.js:18
+[    5473ms] [LOG] Called iframe: ads.pubmatic.com [] 
+Number of topics:  0 @ https://ads.pubmatic.com/AdServer/js/topics/topics_frame.html?bidder=pubmatic:19
+[    5496ms] [LOG] Called iframe: pa.openx.net [] 
+Number of topics:  0 @ https://pa.openx.net/topics_frame.html?bidder=openx:15
+[    5678ms] [INFO] [REFRESH PATCH] pubads.refresh patched @ https://static.anonymised.io/light/loader.js?ref=aps&d=www.reuters.com:0
+[    6012ms] [LOG] %c rpta:Track event "scroll.down" is successfully invoked color: seagreen {category: Technology, label: 25, nonInteraction: 1, scroll_quartile: 0.25} @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6032ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6032ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6032ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6032ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6032ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6033ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6036ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6036ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6036ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    6036ms] [LOG] [IAS]: Resolved with timeout @ https://www.reuters.com/pf/dist/components/combinations/landing.js?d=362&mxId=00000000:1
+[    7319ms] [INFO] [REFRESH PATCH] Injecting targeting {key: AnonymisedSignalLift, value: 0} @ https://static.anonymised.io/light/loader.js?ref=aps&d=www.reuters.com:0

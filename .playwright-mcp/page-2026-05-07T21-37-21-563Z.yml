@@ -1,0 +1,636 @@
+- generic [active] [ref=e1]:
+  - banner [ref=e2]:
+    - button "Skip to content" [ref=e3] [cursor=pointer]:
+      - generic [ref=e5]: Skip to content
+    - button "Accessibility Feedback" [ref=e6] [cursor=pointer]:
+      - generic [ref=e8]: Accessibility Feedback
+    - generic [ref=e9]:
+      - link "Back to Bing search" [ref=e10] [cursor=pointer]:
+        - /url: /?FORM=Z9FD1
+        - heading "Back to Bing search" [level=1] [ref=e11]
+      - search [ref=e12]:
+        - button "Search" [ref=e15] [cursor=pointer]
+        - searchbox "Enter your search here - Search suggestions will show as you type" [ref=e16]: latest news about AI
+        - button "Search using an image" [ref=e22] [cursor=pointer]
+    - complementary "Account Rewards and Preferences" [ref=e24]:
+      - link "Sign in" [ref=e25] [cursor=pointer]:
+        - /url: javascript:void(0)
+        - generic "Sign in" [ref=e26]
+      - button "Microsoft Rewards" [ref=e27] [cursor=pointer]
+      - button "Mobile" [ref=e28] [cursor=pointer]:
+        - img [ref=e29]
+      - button "Settings and quick links" [ref=e31] [cursor=pointer]
+    - navigation "Search Filter" [ref=e32]:
+      - list [ref=e33]:
+        - listitem [ref=e34]:
+          - link "All" [ref=e35] [cursor=pointer]:
+            - /url: /?scope=web&FORM=HDRSC1
+            - text: All
+        - listitem [ref=e37]:
+          - link "Search" [ref=e38] [cursor=pointer]:
+            - /url: /copilotsearch?q=latest+news+about+AI&FORM=CSSCOP
+            - img [ref=e39]
+            - text: Search
+        - listitem [ref=e41]:
+          - link "News" [ref=e42] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8b114fa7a4d8cd07f05831f8e14bec857614b0e32688e0a9178ea9b40aaeb488JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L25ld3Mvc2VhcmNoP3E9bGF0ZXN0K25ld3MrYWJvdXQrQUkmRk9STT1IRFJTQzc&ntb=1
+        - listitem [ref=e43]:
+          - link "Images" [ref=e44] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=8d4657e66a6d97d1e16485996c97413ceae5ec288065354dbf1b234dd9bade29JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L2ltYWdlcy9zZWFyY2g_cT1sYXRlc3QrbmV3cythYm91dCtBSSZGT1JNPUhEUlNDMw&ntb=1
+        - listitem [ref=e45]:
+          - link "Videos" [ref=e46] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6318b74306a1a892f9c655642f782d89ff4fd840bf0846f16adcf40cd48f9260JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1sYXRlc3QrbmV3cythYm91dCtBSSZGT1JNPUhEUlNDNA&ntb=1
+        - listitem [ref=e47]:
+          - link "Maps" [ref=e48] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=de2082db541f5a77c384a4b4190aeef5caa91702ebdef785978a742c5d4aa436JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L21hcHM_cT1sYXRlc3QrbmV3cythYm91dCtBSSZGT1JNPUhEUlNDNg&ntb=1
+        - listitem [ref=e49]:
+          - link "Copilot" [ref=e50] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=05b3579de51b1159ac6e91f9a5ebebb00496f5ec0497f8b8c4250b7a40291a41JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L2NoYXQ_cHJvbXB0PWxhdGVzdCtuZXdzK2Fib3V0K0FJJnNlbmRxdWVyeT0xJkZPUk09U0NDT0RY&ntb=1
+  - generic [ref=e51]:
+    - main "Search Results" [ref=e52]:
+      - generic [ref=e54]: About 94,400 results
+      - list [ref=e65]:
+        - listitem [ref=e66]:
+          - generic [ref=e70]:
+            - generic [ref=e72]:
+              - button "Like" [ref=e73]:
+                - img [ref=e74]
+              - button "Dislike" [ref=e76]:
+                - img [ref=e77]
+            - tooltip "AI disclaimer" [ref=e79]:
+              - img [ref=e80]
+        - listitem [ref=e104]:
+          - generic [ref=e105]:
+            - generic [ref=e107]:
+              - generic [ref=e109]:
+                - link "News about AI" [ref=e111] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=4cd3ce53cce2d547a27ee473cf30fa78fd8e2891b27a7f0e5677fc1b26391fe6JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L25ld3Mvc2VhcmNoP3E9QUkmRk9STT1FV1JF&ntb=1
+                  - heading "News about AI" [level=2] [ref=e112]
+                  - generic:
+                    - img
+                - generic [ref=e116]:
+                  - generic [ref=e118]:
+                    - link "AI’s next bottleneck isn’t chips — It’s power! DATAQUEST DATAQUEST · 15h AI’s next bottleneck isn’t chips — It’s power! The grid supply operates on the time scales measured in minutes to hours, and is designed to provide the bulk electricity, rather than precision." [ref=e119] [cursor=pointer]:
+                      - /url: https://www.bing.com/ck/a?!&&p=fb0a752fc9f9f8f71967818728aa91f3b2d7f5431ba68e83a41983cf41bd9811JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuZHFpbmRpYS5jb20vZXNkbS9haXMtbmV4dC1ib3R0bGVuZWNrLWlzbnQtY2hpcHMtaXRzLXBvd2VyLTExODA3MDE0&ntb=1
+                      - generic [ref=e120]:
+                        - img "AI’s next bottleneck isn’t chips — It’s power!" [ref=e122]
+                        - generic [ref=e123]:
+                          - generic [ref=e125]:
+                            - img "DATAQUEST" [ref=e126]
+                            - generic "DATAQUEST" [ref=e127]: DATAQUEST · 15h
+                          - generic [ref=e128]: AI’s next bottleneck isn’t chips — It’s power!
+                          - generic [ref=e129]: The grid supply operates on the time scales measured in minutes to hours, and is designed to provide the bulk electricity, rather than precision.
+                    - link "DATAQUEST":
+                      - /url: /news/search?q=site%3awww.dqindia.com&FORM=NWBCLM
+                  - list "Please use arrow keys to navigate" [ref=e135]:
+                    - listitem [ref=e136]:
+                      - generic [ref=e138]:
+                        - link "AI emerges as a top cause of layoffs, accounting for 26% of April's job cuts CBS News · 56m AI emerges as a top cause of layoffs, accounting for 26% of April's job cuts" [ref=e139] [cursor=pointer]:
+                          - /url: https://www.bing.com/ck/a?!&&p=7c8ef1309eba9b717e924048b588cc40f8c5f69779ecab9bcb2e5fb6656799dcJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuY2JzbmV3cy5jb20vbmV3cy9haS1sYXlvZmZzLWpvYi1jdXRzLWNoYWxsZW5nZXItcmVwb3J0LWFwcmlsLTIwMjYv&ntb=1
+                          - generic [ref=e140]:
+                            - img "AI emerges as a top cause of layoffs, accounting for 26% of April's job cuts" [ref=e142]
+                            - generic [ref=e143]:
+                              - generic "CBS News" [ref=e146]:
+                                - img "CBS News" [ref=e148]
+                                - generic [ref=e149]: · 56m
+                              - generic [ref=e150]: AI emerges as a top cause of layoffs, accounting for 26% of April's job cuts
+                        - link "CBS News":
+                          - /url: /news/search?q=site%3awww.cbsnews.com&FORM=NWBCLM
+                    - listitem [ref=e151]:
+                      - generic [ref=e153]:
+                        - 'link "AI stocks rally pushes S&P 500, Nasdaq, Kospi to record highs: Are valuations still justified? Mint · 1d · on MSN AI stocks rally pushes S&P 500, Nasdaq, Kospi to record highs: Are valuations still justified?" [ref=e154] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=8f085444d7f5f92a6706e5d4c234b7f8842530e01f950ff4a235e541fce5b908JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cubXNuLmNvbS9lbi1pbi9tb25leS9tYXJrZXRzL2FpLXN0b2Nrcy1yYWxseS1wdXNoZXMtcy1wLTUwMC1uYXNkYXEta29zcGktdG8tcmVjb3JkLWhpZ2hzLWFyZS12YWx1YXRpb25zLXN0aWxsLWp1c3RpZmllZC9hci1BQTIydUZFZD9vY2lkPUJpbmdOZXdzU2VycA&ntb=1
+                          - generic [ref=e155]:
+                            - 'img "AI stocks rally pushes S&P 500, Nasdaq, Kospi to record highs: Are valuations still justified?" [ref=e157]'
+                            - generic [ref=e158]:
+                              - generic "Mint on MSN" [ref=e161]:
+                                - img "Mint" [ref=e163]
+                                - generic [ref=e164]: · 1d · on MSN
+                              - generic [ref=e165]: "AI stocks rally pushes S&P 500, Nasdaq, Kospi to record highs: Are valuations still justified?"
+                        - link "Mint on MSN":
+                          - /url: /news/search?q=site%3awww.msn.com&FORM=NWBCLM
+                    - listitem [ref=e166]:
+                      - generic [ref=e168]:
+                        - 'link "AI imagines what Kareena Kapoor would look like if she were from Dubai or Australia: Fans swoon over her Japanese avatar Hindustan Times · 17h · on MSN AI imagines what Kareena Kapoor would look like if she were from Dubai or Australia: Fans swoon over her Japanese avatar" [ref=e169] [cursor=pointer]':
+                          - /url: https://www.bing.com/ck/a?!&&p=448aef76902c5770c541d95bc1e04a372c9e47e97bb21f2754eec997a9012e33JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cubXNuLmNvbS9lbi1pbi9saWZlc3R5bGUvc3R5bGUvYWktaW1hZ2luZXMtd2hhdC1rYXJlZW5hLWthcG9vci13b3VsZC1sb29rLWxpa2UtaWYtc2hlLXdlcmUtZnJvbS1kdWJhaS1vci1hdXN0cmFsaWEtZmFucy1zd29vbi1vdmVyLWhlci1qYXBhbmVzZS1hdmF0YXIvYXItQUEyMnoyMEo_b2NpZD1CaW5nTmV3c1NlcnA&ntb=1
+                          - generic [ref=e170]:
+                            - 'img "AI imagines what Kareena Kapoor would look like if she were from Dubai or Australia: Fans swoon over her Japanese avatar" [ref=e172]'
+                            - generic [ref=e173]:
+                              - generic "Hindustan Times on MSN" [ref=e176]:
+                                - img "Hindustan Times" [ref=e178]
+                                - generic [ref=e179]: · 17h · on MSN
+                              - generic [ref=e180]: "AI imagines what Kareena Kapoor would look like if she were from Dubai or Australia: Fans swoon over her Japanese avatar"
+                        - link "Hindustan Times on MSN":
+                          - /url: /news/search?q=site%3awww.msn.com&FORM=NWBCLM
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem
+                    - listitem [ref=e181]:
+                      - link "See all News about AI" [ref=e183] [cursor=pointer]:
+                        - /url: https://www.bing.com/ck/a?!&&p=4cd3ce53cce2d547a27ee473cf30fa78fd8e2891b27a7f0e5677fc1b26391fe6JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L25ld3Mvc2VhcmNoP3E9QUkmRk9STT1FV1JF&ntb=1
+                        - img "See all" [ref=e184]
+                        - generic [ref=e185]: See all
+              - generic [ref=e187]:
+                - generic [ref=e188]: Feedback
+                - button "Feedback Like" [ref=e189] [cursor=pointer]
+                - button "Feedback Dislike" [ref=e190] [cursor=pointer]
+            - link "See more news" [ref=e194] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=4cd3ce53cce2d547a27ee473cf30fa78fd8e2891b27a7f0e5677fc1b26391fe6JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L25ld3Mvc2VhcmNoP3E9QUkmRk9STT1FV1JF&ntb=1
+              - generic [ref=e195]: See more news
+              - generic:
+                - img
+        - listitem [ref=e197]:
+          - link "Google News" [ref=e199] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=3a3eb6f1e2b33fcf2898a8eb09204b6667dad647b5ff7e238f23d6d0f14570e7JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vdG9waWNzL0NBQXFKQWdLSWg1RFFrRlRSVUZ2U0V3eU1IWk5SekZ5WldoSlJscFhOSFJTTUVsdlFVRlFBUQ&ntb=1
+            - generic [ref=e204]:
+              - generic [ref=e205]: Google News
+              - generic [ref=e208]: https://news.google.com › topics
+          - heading "Google News - Artificial intelligence - Latest" [level=2] [ref=e209]:
+            - link "Google News - Artificial intelligence - Latest" [ref=e210] [cursor=pointer]:
+              - /url: https://www.bing.com/ck/a?!&&p=3a3eb6f1e2b33fcf2898a8eb09204b6667dad647b5ff7e238f23d6d0f14570e7JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vdG9waWNzL0NBQXFKQWdLSWg1RFFrRlRSVUZ2U0V3eU1IWk5SekZ5WldoSlJscFhOSFJTTUVsdlFVRlFBUQ&ntb=1
+          - paragraph [ref=e212]: Read full articles, watch videos, browse thousands of titles and more on the "Artificial intelligence" topic with Google News.
+          - list [ref=e214]:
+            - listitem [ref=e215]:
+              - link "Technology" [ref=e216] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=80e0f386ed7ba09c33e1d0bf8c02a69defe166c737904a98a45ef44acb887acdJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly9uZXdzLmdvb2dsZS5jb20vdG9waWNzL0NBQXFJQWdLSWhwRFFrRlRSRkZ2U0V3eU1IWk5SekZ5WldoSlExcFhORzlCUVZBQg&ntb=1
+              - paragraph [ref=e217]: Read full articles, watch videos, browse thousands of titles and more on the "Artificial intelligence" topic with Google News.
+          - link "See results only from news.google.com" [ref=e218] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=6f75a9cab24f10fd1b7092513c91686ba4e6fad3b0b8204847362d66ba920c17JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPXNpdGU6bmV3cy5nb29nbGUuY29tK2xhdGVzdCtuZXdzK2Fib3V0K0FJJmZvcm09RExJTktS&ntb=1
+        - listitem [ref=e219]:
+          - generic [ref=e220]:
+            - link "Explore this image" [ref=e223] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=eThK8CF9&id=F213DEC8A4AE6E0703B49C4DD44CAF46544487F1&thid=OIP.eThK8CF9wux7csLGzczELAHaEH&mediaurl=https://indianexpress.com/wp-content/themes/indianexpress/images/IE-OGimage.jpg&q=latest+news+about+AI&ck=BE76814C6253F46A4CEC6C9ADF1A68EE&idpp=rc&expw=1200&exph=667&form=rc2idp
+            - generic [ref=e225]:
+              - link "The Indian Express" [ref=e227] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=c8b1d4904f3a3ee0f7726cd220d11cc1ba8e322489e8cb480cc452e340190379JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly9pbmRpYW5leHByZXNzLmNvbS9zZWN0aW9uL3RlY2hub2xvZ3kvYXJ0aWZpY2lhbC1pbnRlbGxpZ2VuY2Uv&ntb=1
+                - generic [ref=e232]:
+                  - generic [ref=e233]: The Indian Express
+                  - generic [ref=e236]: https://indianexpress.com › section › technology › artificial-i…
+              - 'heading "Artificial Intelligence: Read latest news updates on AI …" [level=2] [ref=e237]':
+                - 'link "Artificial Intelligence: Read latest news updates on AI …" [ref=e238] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=c8b1d4904f3a3ee0f7726cd220d11cc1ba8e322489e8cb480cc452e340190379JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly9pbmRpYW5leHByZXNzLmNvbS9zZWN0aW9uL3RlY2hub2xvZ3kvYXJ0aWZpY2lhbC1pbnRlbGxpZ2VuY2Uv&ntb=1
+              - paragraph [ref=e239]: "13 hours ago · Artificial Intelligence: Read latest updates on AI like Google AI, …"
+              - generic [ref=e241]:
+                - list [ref=e242]:
+                  - listitem [ref=e243]:
+                    - generic [ref=e244]:
+                      - strong [ref=e245]: "Employees:"
+                      - text: "153"
+                - list
+        - listitem [ref=e247]:
+          - generic [ref=e249]:
+            - heading "Videos of Latest News About AI" [level=2] [ref=e251]:
+              - link "Videos of Latest News About AI" [ref=e252] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=130b0edad60a2279a5933e6566820c8d3ec0be7aac34893b8d9e1d54bf05e945JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1sYXRlc3QrbmV3cythYm91dCtBSSZxcHZ0PWxhdGVzdCtuZXdzK2Fib3V0K0FJJkZPUk09VkRSRQ&ntb=1
+            - list "Please use arrow keys to navigate" [ref=e259]:
+              - listitem [ref=e260]:
+                - link "Bing" [ref=e261] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=766dcfd6c6c7e1a7b15a1d1d52e18bb477a325185d9db98ec44378539a1413cbJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1CaW5nJiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Bing" [ref=e264]
+              - listitem [ref=e265]:
+                - link "Make Money with Trail CVA" [ref=e266] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=fe2f3cdd656bfa5e815f835c1f72568cb5663689d92a312c572b8ec8a70d9faaJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1NYWtlK01vbmV5K3dpdGgrVHJhaWwrQ1ZBJiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Make Money with Trail CVA" [ref=e269]
+              - listitem [ref=e270]:
+                - link "Bing Ai Writing" [ref=e271] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=aee92380fb51a906e3e29a138d558ff8085117b27b6255487541ce7e611e1e43JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1CaW5nK0FpK1dyaXRpbmcmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Bing Ai Writing" [ref=e274]
+              - listitem [ref=e275]:
+                - link "Bing Artificial Intelligence" [ref=e276] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=d995808cbc0dd5873402bdb833d2a31d90a25f448bd335dd2ad787cea76d8f37JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1CaW5nK0FydGlmaWNpYWwrSW50ZWxsaWdlbmNlJiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Bing Artificial Intelligence" [ref=e279]
+              - listitem [ref=e280]:
+                - link "Casey Luckey Body" [ref=e281] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=267cc24492d13df969ed810a652fecadc3b928af02fcd276541361a53d5fabdbJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1DYXNleStMdWNrZXkrQm9keSYmRk9STT1WQVJTUVA&ntb=1
+                  - generic "Casey Luckey Body" [ref=e284]
+              - listitem [ref=e285]:
+                - link "Videos Posted by the President" [ref=e286] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c8c9ce8a2756a979f1703e60bac2b300a3e18f87ee6ae77b3c37bccc7babed15JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1WaWRlb3MrUG9zdGVkK2J5K3RoZStQcmVzaWRlbnQmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Videos Posted by the President" [ref=e289]
+              - listitem [ref=e290]:
+                - link "MS Designer" [ref=e291] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=21acc97f59afb9c349c4c547601bac41b994a11182e57f9e529df7855c1ab6f1JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1NUytEZXNpZ25lciYmRk9STT1WQVJTUVA&ntb=1
+                  - generic "MS Designer" [ref=e294]
+              - listitem [ref=e295]:
+                - link "Generated Corporate Image" [ref=e296] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=16125c3660a735d66e18abb294f442b620b96d8cc72e24818dc49bc6cbe988a8JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1HZW5lcmF0ZWQrQ29ycG9yYXRlK0ltYWdlJiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Generated Corporate Image" [ref=e299]
+              - listitem [ref=e300]:
+                - link "Massive Ai Reviews" [ref=e301] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=27064054f207c6c83584d770f3da983f93bc23cd0082b6e67dd7af9e86405724JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1NYXNzaXZlK0FpK1Jldmlld3MmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Massive Ai Reviews" [ref=e304]
+              - listitem [ref=e305]:
+                - link "Video Generator" [ref=e306] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e9e11543ba57ce45643e518834bbddb1953541089680cf21a89a2e095b173e05JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1WaWRlbytHZW5lcmF0b3ImJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Video Generator" [ref=e309]
+              - listitem [ref=e310]:
+                - link "Microsoft" [ref=e311] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=f72012faeb010a98de6f10bba15b160a9b6dd7152ced01232c2f3c9586b96c70JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1NaWNyb3NvZnQmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Microsoft" [ref=e314]
+              - listitem [ref=e315]:
+                - link "Microsoft Bing" [ref=e316] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8adde9e82d39ab6e80c8d83c89c67ecefa2cc9b5f00c3e4c33dac9c2a176c1d9JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1NaWNyb3NvZnQrQmluZyYmRk9STT1WQVJTUVA&ntb=1
+                  - generic "Microsoft Bing" [ref=e319]
+              - listitem [ref=e320]:
+                - link "Trump Top Gun Ai Video" [ref=e321] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=bd177b6e1f08a5af7e768358393fd51c22250cdf0ec2bae28a78a7b351912ecaJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1UcnVtcCtUb3ArR3VuK0FpK1ZpZGVvJiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Trump Top Gun Ai Video" [ref=e324]
+              - listitem [ref=e325]:
+                - link "Japan" [ref=e326] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=0aa1346ccbf4e2131f8476486772da585fd67f1939c01b13529c1b1fb310d8e8JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1KYXBhbiYmRk9STT1WQVJTUVA&ntb=1
+                  - generic "Japan" [ref=e329]
+              - listitem [ref=e330]:
+                - link "Humanoid Robots" [ref=e331] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=50a30fa4aea326b06b3499fa7f98125c5ac811ed0d1beec9eb77374b385254feJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1IdW1hbm9pZCtSb2JvdHMmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Humanoid Robots" [ref=e334]
+              - listitem [ref=e335]:
+                - link "Vyommitra" [ref=e336] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=9052eae683a08468dc60fa777f1c0638d7636aae9b9373610212c9ff68abe3a7JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1WeW9tbWl0cmEmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Vyommitra" [ref=e339]
+              - listitem [ref=e340]:
+                - link "Lydia Moynihan" [ref=e341] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=26b900ab89f9d9075e5f988e3c6bfc7bd1e858d21ddea0d6797a1ff0005a70cdJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1MeWRpYStNb3luaWhhbiYmRk9STT1WQVJTUVA&ntb=1
+                  - generic "Lydia Moynihan" [ref=e344]
+              - listitem [ref=e345]:
+                - link "Robots and Ai Future Documentry 2024" [ref=e346] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=7de2429204faa1fc354805f76faeee058a51a52ebc6ef568b34246df0f9b2effJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1Sb2JvdHMrYW5kK0FpK0Z1dHVyZStEb2N1bWVudHJ5KzIwMjQmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Robots and Ai Future Documentry 2024" [ref=e349]
+              - listitem [ref=e350]:
+                - link "New Bing with Chatgpt AI Technology" [ref=e351] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=20b881d81c1c3d685152b073445328ec626cd2e44d7f7ff8dd3d21c42b53b146JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1OZXcrQmluZyt3aXRoK0NoYXRncHQrQUkrVGVjaG5vbG9neSYmRk9STT1WQVJTUVA&ntb=1
+                  - generic "New Bing with Chatgpt AI Technology" [ref=e354]
+              - listitem [ref=e355]:
+                - link "Dall" [ref=e356] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=cc8f65f0ca7bd2030aedc7f134126692a13e6695c7caa9442089e566d65b972cJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1EYWxsJiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Dall" [ref=e359]
+              - listitem [ref=e360]:
+                - link "Squawk Box" [ref=e361] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=204a967bfa453f99f14354efbf666e9d81580d1eb64311771d7f09730b50c0f3JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1TcXVhd2srQm94JiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Squawk Box" [ref=e364]
+              - listitem [ref=e365]:
+                - link "New" [ref=e366] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=fff86d1be4c70978ea096414f2329a7eee6485d6390ab5b9022e151b414cc4efJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1OZXcmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "New" [ref=e369]
+              - listitem [ref=e370]:
+                - link "Generator Slides" [ref=e371] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=229d03097795e9a36a4cf09dca930b287d8cbea9df8403a9418eeeaf95c61787JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1HZW5lcmF0b3IrU2xpZGVzJiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Generator Slides" [ref=e374]
+              - listitem [ref=e375]:
+                - link "Artificial Intelligence" [ref=e376] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=1564c76d15fea63174198f4e4080176a75c96b36b27f23f5afd219ff3b20b5d9JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1BcnRpZmljaWFsK0ludGVsbGlnZW5jZSYmRk9STT1WQVJTUVA&ntb=1
+                  - generic "Artificial Intelligence" [ref=e379]
+              - listitem [ref=e380]:
+                - link "Itsme Tully" [ref=e381] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=3fcb42495a37d42ee478a11d6bc0788f75c9a842b40089eb3329e053bd522e44JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1JdHNtZStUdWxseSYmRk9STT1WQVJTUVA&ntb=1
+                  - generic "Itsme Tully" [ref=e384]
+              - listitem [ref=e385]:
+                - link "Temple Mount Mosque Destruction" [ref=e386] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=b155f66e8104ef9a9c0d9ae91f2b36e3bb4f168370e765d7a8b6746db75ee25fJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1UZW1wbGUrTW91bnQrTW9zcXVlK0Rlc3RydWN0aW9uJiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Temple Mount Mosque Destruction" [ref=e389]
+              - listitem [ref=e390]:
+                - link "Best AI Videos 2025" [ref=e391] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=6d4d90ff905f69eb7e130a4be287b66eb89e3438051fd8ff6f8600362bc21da9JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1CZXN0K0FJK1ZpZGVvcysyMDI1JiZGT1JNPVZBUlNRUA&ntb=1
+                  - generic "Best AI Videos 2025" [ref=e394]
+              - listitem [ref=e395]:
+                - link "Google" [ref=e396] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=bb4a065f693c48a0849b51ef84c78f8a82877faeb1e242adaf9aeacfad836fadJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9zZWFyY2g_cT1Hb29nbGUmJkZPUk09VkFSU1FQ&ntb=1
+                  - generic "Google" [ref=e399]
+            - generic [ref=e401]:
+              - 'link "Anthropic''s Dario Amodei and JPMorgan''s Jamie Dimon on AI boom, AI regulation & impact on jobs from YouTube · Duration: 5 minutes 23 seconds · 41.9K views · uploaded on 1 day ago · uploaded by CNBC Television · Click to play. · CNBC''s Andrew Ross Sorkin discusses key takeaways from his conversation with Anthropic CEO Dario Amodei and JPMorgan Chase CEO Jamie Dimon. For access to live and exclusive video from CNBC subscribe to CNBC PRO: https://cnb.cx/42d859g » Subscribe to CNBC TV: https://cnb.cx/SubscribeCNBCtelevision » Subscribe to CNBC: https://cnb.cx ..." [ref=e404] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=4f28a342295a283cb0ab9626b58490c58294d347bb43ad05545e27bfc96bde53JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9bGF0ZXN0K25ld3MrYWJvdXQrQUkmbWlkPTg5MzA1QkNCNUQ3ODMxQzcwRjlDODkzMDVCQ0I1RDc4MzFDNzBGOUMmY2h1cmw9JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e405]:
+                  - generic [ref=e414]: 5:23
+                  - generic [ref=e415]:
+                    - generic "Anthropic's Dario Amodei and JPMorgan's Jamie Dimon on AI boom, AI regulation & impact on jobs" [ref=e416]:
+                      - text: Anthropic's Dario Amodei and JPMorgan's Jamie Dimon on
+                      - strong [ref=e417]: AI
+                      - text: boom,
+                      - strong [ref=e418]: AI
+                      - text: regulation & impact on jobs
+                    - generic [ref=e419]:
+                      - generic [ref=e420]:
+                        - img "Video source site" [ref=e421]
+                        - text: YouTube · CNBC Television
+                      - generic [ref=e422]: 41.9K views · 1 day ago
+              - 'link "Head of Claude Code on the future of work and productivity from YouTube · Duration: 16 minutes 37 seconds · 46.3K views · uploaded on 1 day ago · uploaded by CNBC Television · Click to play. · CNBC''s Kate Rooney sat down with Head of Claude Code Boris Cherny at Anthropic''s annual developer conference in San Francisco. They discuss the latest updates to Claude and how AI agents could change the nature of work. For access to live and exclusive video from CNBC subscribe to CNBC PRO: https://cnb.cx/42d859g » Subscribe to CNBC TV: https ..." [ref=e425] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=e1b87d0d53e82b76bccd82c7be9080bc4aaceb143f6af9c7086e76d8f5244020JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9bGF0ZXN0K25ld3MrYWJvdXQrQUkmbWlkPUM4NjFBMzRGODkxNjI5MkI0REYyQzg2MUEzNEY4OTE2MjkyQjRERjImY2h1cmw9JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e426]:
+                  - generic [ref=e435]: 16:37
+                  - generic [ref=e436]:
+                    - generic "Head of Claude Code on the future of work and productivity" [ref=e437]:
+                      - text: Head
+                      - strong [ref=e438]
+                      - text: of
+                      - strong [ref=e439]
+                      - text: Claude
+                      - strong [ref=e440]
+                      - text: Code
+                      - strong [ref=e441]
+                      - text: "on"
+                      - strong [ref=e442]
+                      - text: the
+                      - strong [ref=e443]
+                      - text: future
+                      - strong [ref=e444]
+                      - text: of
+                      - strong [ref=e445]
+                      - text: work
+                      - strong [ref=e446]
+                      - text: and
+                      - strong
+                      - text: productivity
+                    - generic [ref=e447]:
+                      - generic [ref=e448]:
+                        - img "Video source site" [ref=e449]
+                        - text: YouTube · CNBC Television
+                      - generic [ref=e450]: 46.3K views · 1 day ago
+              - 'link "How AI Is Pushing the Semiconductor Supply Chain to the Limit | Bloomberg Primer from YouTube · Duration: 24 minutes 5 seconds · 239.3K views · uploaded on 1 day ago · uploaded by Bloomberg Originals · Click to play. · The global semiconductor industry powers everything from artificial intelligence to everyday electronics, and is on track to become a $1 trillion market. But its supply chain is under growing strain, as geopolitical tensions and rising demand force companies and governments to rethink how chips are made and where they come from. 0:00 ..." [ref=e453] [cursor=pointer]':
+                - /url: https://www.bing.com/ck/a?!&&p=a3d300e2f5f6f1459fbaa5152752258ddcc8d6f67a9b0ac7bbbbdc60b50cad6dJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3ZpZGVvcy9yaXZlcnZpZXcvcmVsYXRlZHZpZGVvP3E9bGF0ZXN0K25ld3MrYWJvdXQrQUkmbWlkPTY3MTBCMThGNjFCRUMzMUE1NjAyNjcxMEIxOEY2MUJFQzMxQTU2MDImY2h1cmw9JkZPUk09VklSRQ&ntb=1
+                - generic [ref=e454]:
+                  - generic [ref=e463]: 24:05
+                  - generic [ref=e464]:
+                    - generic "How AI Is Pushing the Semiconductor Supply Chain to the Limit | Bloomberg Primer" [ref=e465]:
+                      - text: How
+                      - strong [ref=e466]: AI
+                      - text: Is Pushing the Semiconductor Supply Chain to the Limit | Bloomberg Primer
+                    - generic [ref=e467]:
+                      - generic [ref=e468]:
+                        - img "Video source site" [ref=e469]
+                        - text: YouTube · Bloomberg Originals
+                      - generic [ref=e470]: 239.3K views · 1 day ago
+        - listitem [ref=e471]:
+          - generic [ref=e472]:
+            - link "Explore this image" [ref=e475] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=noB2kfua&id=D4ECB4D768087C7AB3A51836C08DD026FBCE978B&thid=OIP.noB2kfuaa2c_2fhfyAe8pwHaD4&mediaurl=https://www.reuters.com/pf/resources/images/reuters/reuters-default.webp?d=341&q=latest+news+about+AI&ck=69173A2127D9B4BB14D8901F02FDE6E8&idpp=rc&expw=1200&exph=628&form=rc2idp
+            - generic [ref=e477]:
+              - link "Reuters" [ref=e479] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=4c47a788aeb042aa1150d1429f929f87f059ec463c5126d5db903c48f92a162aJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cucmV1dGVycy5jb20vdGVjaG5vbG9neS9hcnRpZmljaWFsLWludGVsbGlnZW5jZS8&ntb=1
+                - generic [ref=e484]:
+                  - generic [ref=e485]: Reuters
+                  - generic [ref=e488]: https://www.reuters.com › technology › artificial-intelligence
+              - heading "AI News | Latest Headlines and Developments | Reuters" [level=2] [ref=e489]:
+                - link "AI News | Latest Headlines and Developments | Reuters" [ref=e490] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=4c47a788aeb042aa1150d1429f929f87f059ec463c5126d5db903c48f92a162aJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cucmV1dGVycy5jb20vdGVjaG5vbG9neS9hcnRpZmljaWFsLWludGVsbGlnZW5jZS8&ntb=1
+              - paragraph [ref=e491]: Apr 28, 2026 · Explore the latest artificial intelligence news with Reuters - from AI breakthroughs and technology trends to regulation, ethics, business and global …
+        - listitem [ref=e493]:
+          - generic [ref=e494]:
+            - link "Explore this image" [ref=e497] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=1ggKlRl3&id=C54EEE542E9C88E50906BAC9D7958DC46A0CDBDA&thid=OIP.1ggKlRl3kT3DOgP5iDLDMwEsCd&mediaurl=https://img.etimg.com/thumb/msid-65498029,width-672,resizemode-4/et-logo.jpg&q=latest+news+about+AI&ck=694946E97E7E1EC592134C8A958E14F3&idpp=rc&expw=672&exph=352&form=rc2idp
+            - generic [ref=e499]:
+              - link "The Economic Times" [ref=e501] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=e4bc01772839707744bd04e4a36919e4417497b76866e5d0f85b533bd80882b9JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly9lY29ub21pY3RpbWVzLmluZGlhdGltZXMuY29tL3RvcGljL2FydGlmaWNpYWwtaW50ZWxsaWdlbmNlLWxhdGVzdC1uZXdz&ntb=1
+                - generic [ref=e506]:
+                  - generic [ref=e507]: The Economic Times
+                  - generic [ref=e510]: https://economictimes.indiatimes.com › topic › artificial-intell…
+              - heading "ARTIFICIAL INTELLIGENCE LATEST NEWS - The …" [level=2] [ref=e511]:
+                - link "ARTIFICIAL INTELLIGENCE LATEST NEWS - The …" [ref=e512] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e4bc01772839707744bd04e4a36919e4417497b76866e5d0f85b533bd80882b9JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly9lY29ub21pY3RpbWVzLmluZGlhdGltZXMuY29tL3RvcGljL2FydGlmaWNpYWwtaW50ZWxsaWdlbmNlLWxhdGVzdC1uZXdz&ntb=1
+              - paragraph [ref=e513]: 2 days ago · Global investors are actively investing in Asia's data center sector, driven by demand for cloud computing and AI services. Global stocks surged to …
+        - listitem [ref=e515]:
+          - link "xix.ai" [ref=e517] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=c37cc7a54cc3f4773069a70f975bf98b0bf3334c4ff97c640c192b1e463a8a5aJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly94aXguYWkvbGl2ZQ&ntb=1
+            - generic [ref=e522]:
+              - generic [ref=e523]: xix.ai
+              - generic [ref=e526]: https://xix.ai › live
+          - heading "Latest AI News & Real-Time Updates | Daily Artificial Intelligence ..." [level=2] [ref=e527]:
+            - link "Latest AI News & Real-Time Updates | Daily Artificial Intelligence ...":
+              - /url: https://www.bing.com/ck/a?!&&p=c37cc7a54cc3f4773069a70f975bf98b0bf3334c4ff97c640c192b1e463a8a5aJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly94aXguYWkvbGl2ZQ&ntb=1
+          - paragraph [ref=e529]: Get the latest AI news, live updates, and expert insights on artificial intelligence, machine learning, deep learning, and more at xix.ai. Handpicked daily for developers, researchers, and technology enthusiasts.
+        - listitem [ref=e530]:
+          - generic [ref=e531]:
+            - link "Explore this image" [ref=e534] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=Xb19qtVb&id=E3E1170C9585014940F63EA88DAC028D6014C68A&thid=OIP.Xb19qtVbri7r5pYvBO2wEwHaGD&mediaurl=https://www.futurepedia.io/images/ai-innovations.png&q=latest+news+about+AI&ck=E0D2A5D7A7D3E9B85836B684581C3E5B&idpp=rc&expw=595&exph=487&form=rc2idp
+            - generic [ref=e536]:
+              - link "Futurepedia" [ref=e538] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=83f5bcbd926234c66b4f4bf977f41c973e8187a939c3277da48d7b4513013bb6JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuZnV0dXJlcGVkaWEuaW8vYWktaW5ub3ZhdGlvbnM&ntb=1
+                - generic [ref=e543]:
+                  - generic [ref=e544]: Futurepedia
+                  - generic [ref=e547]: https://www.futurepedia.io › ai-innovations
+              - heading "The Latest AI Innovations - Futurepedia" [level=2] [ref=e548]:
+                - link "The Latest AI Innovations - Futurepedia" [ref=e549] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=83f5bcbd926234c66b4f4bf977f41c973e8187a939c3277da48d7b4513013bb6JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuZnV0dXJlcGVkaWEuaW8vYWktaW5ub3ZhdGlvbnM&ntb=1
+              - paragraph [ref=e550]: 21 hours ago · Track AI Developments from the Top 100 Tech Companies (updated daily) Stop chasing AI news. Stay on top of AI advancements from tech's biggest …
+        - listitem [ref=e552]:
+          - link "ScienceDaily" [ref=e554] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=0d4ffae97228bb80469b8d4f20856692dce5ea3d470d363629348fbab2a0007bJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuc2NpZW5jZWRhaWx5LmNvbS9uZXdzL2NvbXB1dGVyc19tYXRoL2FydGlmaWNpYWxfaW50ZWxsaWdlbmNlLw&ntb=1
+            - generic [ref=e559]:
+              - generic [ref=e560]: ScienceDaily
+              - generic [ref=e563]: https://www.sciencedaily.com › news › computers_math › artificial_intelligence
+          - heading "Artificial Intelligence News -- ScienceDaily" [level=2] [ref=e564]:
+            - link "Artificial Intelligence News -- ScienceDaily":
+              - /url: https://www.bing.com/ck/a?!&&p=0d4ffae97228bb80469b8d4f20856692dce5ea3d470d363629348fbab2a0007bJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuc2NpZW5jZWRhaWx5LmNvbS9uZXdzL2NvbXB1dGVyc19tYXRoL2FydGlmaWNpYWxfaW50ZWxsaWdlbmNlLw&ntb=1
+          - paragraph [ref=e566]: Apr 17, 2026 · Artificial Intelligence News. Everything on AI including futuristic robots with artificial intelligence, computer models of human intelligence and more.
+        - listitem [ref=e567]:
+          - generic [ref=e568]:
+            - link "Explore this image" [ref=e571] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=FB/bphQq&id=74B2AB86522A06FFB4EA98E3F5049E34BD30B6FF&thid=OIP.FB_bphQqJCW1rAqnNXPM4QHaD4&mediaurl=https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i5PGsA7G0NRA/v0/1200x630.png&q=latest+news+about+AI&ck=8A56E3056C498E1E23DB60250E726F03&idpp=rc&expw=1200&exph=630&form=rc2idp
+            - generic [ref=e573]:
+              - link "Bloomberg" [ref=e575] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=c37e882ae8e78a667aa2503ba7388d69e7bd0ec59c53c4a2ee9e4fb50299805fJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9sYXRlc3QvdGhlLWFpLXJhY2U&ntb=1
+                - generic [ref=e580]:
+                  - generic [ref=e581]: Bloomberg
+                  - generic [ref=e584]: https://www.bloomberg.com › latest › the-ai-race
+              - 'heading "The AI Race: Trending News, Latest Updates, Analysis" [level=2] [ref=e585]':
+                - 'link "The AI Race: Trending News, Latest Updates, Analysis" [ref=e586] [cursor=pointer]':
+                  - /url: https://www.bing.com/ck/a?!&&p=c37e882ae8e78a667aa2503ba7388d69e7bd0ec59c53c4a2ee9e4fb50299805fJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuYmxvb21iZXJnLmNvbS9sYXRlc3QvdGhlLWFpLXJhY2U&ntb=1
+              - paragraph [ref=e587]: 1 day ago · See the latest on The AI Race. From breaking news to in-depth reporting, Bloomberg tracks the full story in real time.
+        - listitem [ref=e589]:
+          - link "buildfastwithai.com" [ref=e591] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b69be750c2877af81d16b4b904b42e3b12e28701e0d18bfb74cea1668ee0b224JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuYnVpbGRmYXN0d2l0aGFpLmNvbS9ibG9ncy9jb2xsZWN0aW9uL2FpLWluZHVzdHJ5LW5ld3MtdHJlbmRz&ntb=1
+            - generic [ref=e596]:
+              - generic [ref=e597]: buildfastwithai.com
+              - generic [ref=e600]: https://www.buildfastwithai.com › blogs › collection › ai-industry-news-trends
+          - heading "AI Industry News & Trends 2026 | Latest Breakthroughs, Models ..." [level=2] [ref=e601]:
+            - link "AI Industry News & Trends 2026 | Latest Breakthroughs, Models ...":
+              - /url: https://www.bing.com/ck/a?!&&p=b69be750c2877af81d16b4b904b42e3b12e28701e0d18bfb74cea1668ee0b224JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly93d3cuYnVpbGRmYXN0d2l0aGFpLmNvbS9ibG9ncy9jb2xsZWN0aW9uL2FpLWluZHVzdHJ5LW5ld3MtdHJlbmRz&ntb=1
+          - paragraph [ref=e603]: 2 days ago · Stay ahead with the latest AI news, model releases, research breakthroughs, and industry trends in 2026. Curated updates on OpenAI, Anthropic, Google DeepMind, Meta AI, and the open …
+        - listitem [ref=e604]:
+          - generic [ref=e605]:
+            - link "Explore this image" [ref=e608] [cursor=pointer]:
+              - /url: /images/search?view=detailV2&ccid=rSANhsN2&id=360B9A9CD35D9D4020DBD6093F9D0535AA403202&thid=OIP.rSANhsN2U4VZC0XzQA7YeAHaE7&mediaurl=https://techcrunch.com/wp-content/uploads/2025/06/GettyImages-2217198328.jpeg?w=563&q=latest+news+about+AI&ck=6A700A30F3F797E49E95F77E2AC3C7C7&idpp=rc&expw=563&exph=375&form=rc2idp
+            - generic [ref=e610]:
+              - link "TechCrunch" [ref=e612] [cursor=pointer]:
+                - /url: https://www.bing.com/ck/a?!&&p=19be4b6b595196f14a3687ccd14d0ba347bc2fa97af7ac679154ea3d3faaf530JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS9jYXRlZ29yeS9hcnRpZmljaWFsLWludGVsbGlnZW5jZS8&ntb=1
+                - generic [ref=e617]:
+                  - generic [ref=e618]: TechCrunch
+                  - generic [ref=e621]: https://techcrunch.com › category › artificial-intelligence
+              - heading "AI News & Artificial Intelligence | TechCrunch" [level=2] [ref=e622]:
+                - link "AI News & Artificial Intelligence | TechCrunch" [ref=e623] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=19be4b6b595196f14a3687ccd14d0ba347bc2fa97af7ac679154ea3d3faaf530JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cHM6Ly90ZWNoY3J1bmNoLmNvbS9jYXRlZ29yeS9hcnRpZmljaWFsLWludGVsbGlnZW5jZS8&ntb=1
+              - paragraph [ref=e624]: Read the latest on artificial intelligence and machine learning tech, the companies that are building them, and the ethical issues AI raises today.
+        - listitem [ref=e626]:
+          - generic [ref=e627]:
+            - generic [ref=e628]:
+              - heading "People also ask" [level=2] [ref=e629]:
+                - generic [ref=e630]: People also ask
+              - list [ref=e633]:
+                - listitem [ref=e634]:
+                  - heading "Where can I find the latest artificial intelligence news?" [level=3] [ref=e635]:
+                    - button "Where can I find the latest artificial intelligence news?" [ref=e636] [cursor=pointer]:
+                      - generic [ref=e637]: Where can I find the latest artificial intelligence news?
+                      - generic:
+                        - img
+                - listitem [ref=e638]:
+                  - heading "How does artificial intelligence impact software companies?" [level=3] [ref=e639]:
+                    - button "How does artificial intelligence impact software companies?" [ref=e640] [cursor=pointer]:
+                      - generic [ref=e641]: How does artificial intelligence impact software companies?
+                      - generic:
+                        - img
+                - listitem [ref=e642]:
+                  - heading "Will artificial intelligence drive the stock market to all-time highs?" [level=3] [ref=e643]:
+                    - button "Will artificial intelligence drive the stock market to all-time highs?" [ref=e644] [cursor=pointer]:
+                      - generic [ref=e645]: Will artificial intelligence drive the stock market to all-time highs?
+                      - generic:
+                        - img
+                - listitem [ref=e646]:
+                  - heading "Is artificial intelligence the fastest-moving technology sector in history?" [level=3] [ref=e647]:
+                    - button "Is artificial intelligence the fastest-moving technology sector in history?" [ref=e648] [cursor=pointer]:
+                      - generic [ref=e649]: Is artificial intelligence the fastest-moving technology sector in history?
+                      - generic:
+                        - img
+            - button "Feedback" [ref=e652] [cursor=pointer]
+        - listitem [ref=e653]:
+          - generic [ref=e654]:
+            - heading "Deep dive into latest news about AI" [level=2] [ref=e655]:
+              - text: Deep dive into
+              - strong [ref=e656]: latest news about AI
+            - list [ref=e657]:
+              - listitem [ref=e658]:
+                - link "latest news about ai 2025" [ref=e659] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=7d56f2059846ea363ae9bb9cbf0210cf6948867550384fb600eaebbd3ae9c90aJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWxhdGVzdCtuZXdzK2Fib3V0K2FpKzIwMjUmRk9STT1RU1JFMQ&ntb=1
+                  - generic [ref=e661]:
+                    - text: latest news about ai
+                    - strong [ref=e662]: "2025"
+              - listitem [ref=e663]:
+                - link "ai in the news" [ref=e664] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ee8763abb1d1f9f982b881f954171bfe190f1d2d9ef63f960e571a11d382323bJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWFpK2luK3RoZStuZXdzJkZPUk09UVNSRTI&ntb=1
+                  - generic [ref=e666]:
+                    - text: ai
+                    - strong [ref=e667]: in the
+                    - text: news
+              - listitem [ref=e668]:
+                - link "breaking news on artificial intelligence" [ref=e669] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=ecd36d91d5c2d80d9769a7358c9da8993d3852cbd617813ad639ea8d329ed8ddJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWJyZWFraW5nK25ld3Mrb24rYXJ0aWZpY2lhbCtpbnRlbGxpZ2VuY2UmRk9STT1RU1JFMw&ntb=1
+                  - generic [ref=e671]:
+                    - strong [ref=e672]: breaking
+                    - text: news
+                    - strong [ref=e673]: on artificial intelligence
+              - listitem [ref=e674]:
+                - link "latest news artificial intelligence" [ref=e675] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=22f487ccd2f135812935688cb19f9229ae9809a73d9d9ad0b8a30f9fbe4dcb88JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWxhdGVzdCtuZXdzK2FydGlmaWNpYWwraW50ZWxsaWdlbmNlJkZPUk09UVNSRTQ&ntb=1
+                  - generic [ref=e677]:
+                    - text: latest news
+                    - strong [ref=e678]: artificial intelligence
+              - listitem [ref=e679]:
+                - link "ai announcement today" [ref=e680] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=0ea98b694be629fcbdfdaeb978721f07f04dc7bfe88b6873f964ec389a0b779cJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWFpK2Fubm91bmNlbWVudCt0b2RheSZGT1JNPVFTUkU1&ntb=1
+                  - generic [ref=e682]:
+                    - text: ai
+                    - strong [ref=e683]: announcement today
+              - listitem [ref=e684]:
+                - link "current news of latest ai" [ref=e685] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=346fb6842bcc801916e7cb0894021cd41d5aa106ec96eb2107d604e2f441669bJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWN1cnJlbnQrbmV3cytvZitsYXRlc3QrYWkmRk9STT1RU1JFNg&ntb=1
+                  - generic [ref=e687]:
+                    - strong [ref=e688]: current
+                    - text: news
+                    - strong [ref=e689]: of
+                    - text: latest ai
+              - listitem [ref=e690]:
+                - link "artificial intelligence trending news today" [ref=e691] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=999b42e2a942509d3e9570b9b575c37437413fe7fad1ab28419fcc518ffcdac8JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWFydGlmaWNpYWwraW50ZWxsaWdlbmNlK3RyZW5kaW5nK25ld3MrdG9kYXkmRk9STT1RU1JFNw&ntb=1
+                  - generic [ref=e693]:
+                    - strong [ref=e694]: artificial intelligence trending
+                    - text: news
+                    - strong [ref=e695]: today
+              - listitem [ref=e696]:
+                - link "latest ai news and updates" [ref=e697] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=7c1df83fefb9d106f43f5dc305db6c13f9b67e32cb1fd8fb3f340765789822e4JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWxhdGVzdCthaStuZXdzK2FuZCt1cGRhdGVzJkZPUk09UVNSRTg&ntb=1
+                  - generic [ref=e699]:
+                    - text: latest ai news
+                    - strong [ref=e700]: and updates
+        - listitem [ref=e701]:
+          - link "Some results have been removed" [ref=e703] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=d19e5d252fa9099ee7de10cfa1dc845ffe1e7fe52585d29f526979c88f45837cJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9NjE3MzUw&ntb=1
+        - listitem [ref=e704]:
+          - navigation "More results for latest news about AI":
+            - list:
+              - listitem [ref=e705]:
+                - generic "Page 1" [ref=e706]: "1"
+              - listitem [ref=e707]:
+                - link "Page 2" [ref=e708] [cursor=pointer]:
+                  - /url: /search?q=latest+news+about+AI&FPIG=AB37A4011D3A460895B21788489F5406&first=11&FORM=PERE
+                  - text: "2"
+              - listitem [ref=e709]:
+                - link "Page 3" [ref=e710] [cursor=pointer]:
+                  - /url: /search?q=latest+news+about+AI&FPIG=AB37A4011D3A460895B21788489F5406&first=21&FORM=PERE1
+                  - text: "3"
+              - listitem [ref=e711]:
+                - link "Next page" [ref=e712] [cursor=pointer]:
+                  - /url: /search?q=latest+news+about+AI&FPIG=AB37A4011D3A460895B21788489F5406&first=11&FORM=PORE
+    - complementary "Additional Results" [ref=e713]:
+      - list [ref=e714]:
+        - listitem [ref=e715]:
+          - generic "Related searches" [ref=e716]:
+            - generic [ref=e718]:
+              - heading "Deep dive into latest news about AI" [level=2] [ref=e720]:
+                - text: Deep dive into
+                - strong [ref=e721]: latest news about AI
+              - generic [ref=e722]:
+                - link "latest news about ai 2025" [ref=e724] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e181eaad3b5d3872ff35341c275111663f1ef9f14dbd2bb55430df6464380299JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWxhdGVzdCtuZXdzK2Fib3V0K2FpKzIwMjUmRk9STT1SNUZE&ntb=1
+                  - generic [ref=e726]:
+                    - text: latest news about ai
+                    - strong [ref=e727]: "2025"
+                - link "ai in the news" [ref=e729] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=93598a11fd85c8c38f2b003cdc92b88bd8ef29584dd9ce43f61c64dd41ae7263JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWFpK2luK3RoZStuZXdzJkZPUk09UjVGRDE&ntb=1
+                  - generic [ref=e731]:
+                    - text: ai
+                    - strong [ref=e732]: in the
+                    - text: news
+                - link "breaking news on artificial intelligence" [ref=e734] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=c56f23296066b1c50aac73de430d65b3f090e26c5d075879a45514e3ad34339fJmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWJyZWFraW5nK25ld3Mrb24rYXJ0aWZpY2lhbCtpbnRlbGxpZ2VuY2UmRk9STT1SNUZEMg&ntb=1
+                  - generic [ref=e736]:
+                    - strong [ref=e737]: breaking
+                    - text: news
+                    - strong [ref=e738]: on artificial intelligence
+                - link "latest news artificial intelligence" [ref=e740] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=48d260481a807ed58ae7f87be77de3ffc7a6af356d29234bae8aeaa99db52577JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWxhdGVzdCtuZXdzK2FydGlmaWNpYWwraW50ZWxsaWdlbmNlJkZPUk09UjVGRDM&ntb=1
+                  - generic [ref=e742]:
+                    - text: latest news
+                    - strong [ref=e743]: artificial intelligence
+                - link "ai announcement today" [ref=e745] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=fda09e610d3c82fa834260ab71575cdbf8ff37682dc0a4c8078bd734b1e7d457JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWFpK2Fubm91bmNlbWVudCt0b2RheSZGT1JNPVI1RkQ0&ntb=1
+                  - generic [ref=e747]:
+                    - text: ai
+                    - strong [ref=e748]: announcement today
+                - link "current news of latest ai" [ref=e750] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=e5b91e241650004236b42057a639c3f3fca9802855fe5c31c34c370d7fafe811JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWN1cnJlbnQrbmV3cytvZitsYXRlc3QrYWkmRk9STT1SNUZENQ&ntb=1
+                  - generic [ref=e752]:
+                    - strong [ref=e753]: current
+                    - text: news
+                    - strong [ref=e754]: of
+                    - text: latest ai
+                - link "artificial intelligence trending news today" [ref=e756] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=7d29e1e04ee2571d787ac92966a9983486fdf975e3aa7e0d1f69d28a3120f205JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWFydGlmaWNpYWwraW50ZWxsaWdlbmNlK3RyZW5kaW5nK25ld3MrdG9kYXkmRk9STT1SNUZENg&ntb=1
+                  - generic [ref=e758]:
+                    - strong [ref=e759]: artificial intelligence trending
+                    - text: news
+                    - strong [ref=e760]: today
+                - link "latest ai news and updates" [ref=e762] [cursor=pointer]:
+                  - /url: https://www.bing.com/ck/a?!&&p=8e031339d707233bd3191945030a3f0f8f1df67e16311de54db8adae4aad1265JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1L3NlYXJjaD9xPWxhdGVzdCthaStuZXdzK2FuZCt1cGRhdGVzJkZPUk09UjVGRDc&ntb=1
+                  - generic [ref=e764]:
+                    - text: latest ai news
+                    - strong [ref=e765]: and updates
+  - contentinfo [ref=e766]:
+    - generic [ref=e767]:
+      - list:
+        - listitem [ref=e768]:
+          - link "Privacy" [ref=e769] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=68aed32e71927777a2eb15545f93a7b3d31200c186398f54cec0b12472d51ff7JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSWQ9NTIxODM5&ntb=1
+        - listitem [ref=e770]:
+          - link "Terms" [ref=e771] [cursor=pointer]:
+            - /url: https://www.bing.com/ck/a?!&&p=b5b14d0a3cb4efdd99db8f252b2541c819cb62d1ca70bf199479d8b7e9b211b1JmltdHM9MTc3ODExMjAwMA&ptn=3&ver=2&hsh=4&fclid=026428f2-9523-6b08-3835-3fa294416a09&u=a1aHR0cDovL2dvLm1pY3Jvc29mdC5jb20vZndsaW5rLz9MaW5rSUQ9MjQ2MzM4&ntb=1

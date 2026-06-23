@@ -1,0 +1,22 @@
+{
+    "mcpServers": {
+      "playwright": {
+        "command": "npx",
+        "args": [
+          "@playwright/mcp@0.0.20"
+        ]
+      },
+      "airbnb": {
+      "command": "npx",
+      "args": ["-y", "@openbnb/mcp-server-airbnb@0.1.3", "--ignore-robots-txt", "--disable-geocoding"]
+      },
+      "tavily": {
+      "command": "npx",
+      "args": ["-y", "tavily-mcp@latest"],
+      "env": {
+      "TAVILY_API_KEY": "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"
+      }
+      }
+    }
+  }
+  
