@@ -20,7 +20,7 @@ app.post('/api/chat', (req, res) => {
 
   const pythonBin = process.platform === 'win32'
     ? '.venv\\Scripts\\python.exe'
-    : '.venv/bin/python';
+    : 'python3';
   const py = spawn(pythonBin, [path.join(__dirname, 'api.py'), message], {
     env: { ...process.env },
     cwd: __dirname,
